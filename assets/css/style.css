@@ -320,6 +320,23 @@ span.elem-retet img {
     left: 0px;
     width: 210px;
 }
+    .col.hero-text.pt-5.pb-5 img {
+        z-index: 10;
+        position: relative;
+        display: flex;
+        width: 55%;
+        left: 0px;
+        top: 0px;
+    }
+.col.hero-img img {
+        width: 85%;
+        justify-content: center;
+        display: flex;
+        position: absolute;
+        z-index: 15;
+        bottom: 0px;
+        left: 50px;
+    }
 .col-md-3.hero-title {
     /* bottom: -200px; */
     display: flex;
@@ -346,6 +363,13 @@ h3.hero {
     z-index: 18;
     /* max-width: 100%; */
 }
+section#sobre .sobre-img img {
+        bottom: 0px;
+        display: flex;
+        position: relative;
+        width: 100%;
+        left: 0px;
+    }
 
 }
 
@@ -403,8 +427,23 @@ span.elem-retet3 img {
 h3.hero {
     font-size: 1.8rem;
 }
+
+
+section#sobre .sobre-img img {
+        bottom: 0px;
+        display: flex;
+        position: relative;
+        width: 100%;
+        left: 0px;
+    }
+
+
+
 .competencias h1 .text-center .scroll-item .delay .show strong {
     font-size: 3rem;
 }
+
+
+
     
 }
