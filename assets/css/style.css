@@ -67,7 +67,7 @@ section#hero {
   100% {right: 0px; top: 0px;}
 }
 .col.hero-img {
-    width: 85%;
+    /* width: 85%; */
     justify-content: center;
     display: flex;
     position: absolute;
@@ -185,7 +185,7 @@ span.elem-retet3 img {
 }
     
      .col.hero-img img {
-        /* width: 350px; */
+        /* width: 100%; */
         /* justify-content: center; */
         /* display: flex; */
         position: absolute;
