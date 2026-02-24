@@ -175,20 +175,23 @@ section#sobre .sobre-img img {
         display: none;
     }
 span.elem-retet2 img {
-    width: 150px;
-}
+        width: 150px;
+        right: 0px;
+    }
 span.elem-retet3 img {
     width: 150px;
+    right: 0px;
 }
     
-        .col.hero-img img {
-        /* width: 100%; */
+     .col.hero-img img {
+        /* width: unset; */
         /* justify-content: center; */
-        display: flex;
+        /* display: flex; */
         position: absolute;
         z-index: 2;
         bottom: 0px;
-        left: 0px;
+        left: 70px;
+        right: 0px;
     }
 
 .col.hero-text.pt-5.pb-5 img {
