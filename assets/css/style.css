@@ -7,7 +7,7 @@
 body {
   background: #02071B;
   color: white;
-  overflow-x: hidden !important;
+  /* overflow-x: hidden !important; */
 }
 .pt-5, .pb-5 {
     padding-top: 5rem !important;
@@ -191,7 +191,7 @@ span.elem-retet3 img {
         position: absolute;
         z-index: 2;
         bottom: 0px;
-        /* left: 0px; */
+        left: 0px;
         right: 0px;
     }
     .col.hero-img img {
