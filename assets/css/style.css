@@ -48,6 +48,7 @@ section {
 section#hero {
     height: 100vh;
 }
+
 .col.hero-text.pt-5.pb-5 img {
     z-index: 10;
     position: relative;
@@ -176,6 +177,13 @@ section#sobre .sobre-img img {
     .hero{
         height: 100vh;
     }
+
+    section#sobre {
+    height: auto;
+}
+section#conhecimento {
+    height: auto;
+}
      span.elem-retet img {
         position: absolute;
         z-index: 0;
