@@ -174,7 +174,7 @@ section#sobre .sobre-img img {
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 525px) {
-    .hero{
+    #hero{
         height: 100vh;
     }
 
