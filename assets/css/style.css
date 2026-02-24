@@ -181,14 +181,14 @@ span.elem-retet3 img {
     width: 150px;
 }
     
-    .col.hero-img img {
-        width: 650px;
+        .col.hero-img img {
+        /* width: 365px; */
         /* justify-content: center; */
         display: flex;
         position: absolute;
         z-index: 2;
         bottom: 0px;
-        left: 30px;
+        left: 0px;
     }
 
 .col.hero-text.pt-5.pb-5 img {
