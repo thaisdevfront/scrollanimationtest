@@ -187,7 +187,7 @@ span.elem-retet3 img {
 }
     
      .col.hero-img img {
-        width: 379px;
+        width: 369px;
         /* justify-content: center; */
         /* display: flex; */
         position: absolute;
@@ -196,7 +196,6 @@ span.elem-retet3 img {
         left: 0px;
         right: 0px;
     }
-
 .col.hero-text.pt-5.pb-5 img {
     z-index: 10;
     position: relative;
