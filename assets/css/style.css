@@ -77,9 +77,7 @@ section#hero {
     animation-duration: 2s;
     animation-iteration-count: 1;
 }
-.col.hero-img img {
-    right: 0px;
-}
+
 @keyframes myAnimationheroperfil {
     0% {bottom:-500px; top:0px;}
   100% {bottom: 0px; top: 0px;}
@@ -187,7 +185,7 @@ span.elem-retet3 img {
 }
     
      .col.hero-img img {
-        width: 369px;
+        width: 350px;
         /* justify-content: center; */
         /* display: flex; */
         position: absolute;
@@ -196,6 +194,9 @@ span.elem-retet3 img {
         left: 0px;
         right: 0px;
     }
+    .col.hero-img img {
+    right: 0px !important;
+}
 .col.hero-text.pt-5.pb-5 img {
     z-index: 10;
     position: relative;
