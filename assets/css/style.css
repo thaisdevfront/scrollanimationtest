@@ -182,7 +182,7 @@ span.elem-retet3 img {
 }
     
         .col.hero-img img {
-        /* width: 365px; */
+        /* width: 100%; */
         /* justify-content: center; */
         display: flex;
         position: absolute;
