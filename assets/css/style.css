@@ -45,9 +45,6 @@ section {
 }
 
 
-
-
-
 section#hero {
     height: 100vh;
 }
@@ -146,7 +143,16 @@ span.elem-retet3 img {
     bottom: 0px;
     right: 0px;
 }
-
+#conhecimento, #competencia {
+    background-image: url(/assets/img/fundo.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* sobr */
@@ -167,7 +173,9 @@ section#sobre .sobre-img img {
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 525px) {
-    
+    .hero{
+        height: 100vh;
+    }
      span.elem-retet img {
         position: absolute;
         z-index: 0;
@@ -235,6 +243,22 @@ span.elem-retet3 img {
     display: flex;
     z-index: 20;
     order: 2;
+}
+
+section#sobre{
+    height: auto;
+}
+
+
+#conhecimento {
+    background-image: url(/assets/img/fundo-mob.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 }
