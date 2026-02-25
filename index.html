@@ -9,13 +9,64 @@
   <meta name="theme-color" content="#02071B" />
 
 
-  <title>Intro Animada</title>
+  <title>Frontend Developer Júnior</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   
   <link rel="stylesheet" href="assets/css/style.css">
-  
+  <link rel="stylesheet" href="assets/css/botãoWhatsapp.css">
+    
 </head>
 <body>
+    
+<header id="header" class="d-none d-md-block">
+    <div class="container">
+        <nav style="position:sticky;top:0;z-index:50;border-bottom: 0px solid #fbfbfb;">
+            <div class="container" style="max-width:1200px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:1rem;">
+                
+                <div style="display:flex;gap:1rem;">
+                    <a href="index.html" style="color:white;text-decoration:none;">Início</a>
+                    <a href="#port" style="color:white;text-decoration:none;">Portfólio</a>
+                    <a href="#conhecimento" style="color: white;text-decoration:none;font-weight:600;">Tecnologias</a>
+                    <a href="#sobre" style="color:white;text-decoration:none;">Sobre</a>
+                </div>
+
+                <hr style="border: solid 2px white;width: 30%;opacity: 100;">
+                <div style="display:flex;gap:1rem;">
+                <a href="https://www.instagram.com/thais.devfrontend" style="color:#02071B;text-decoration:none;">
+                    <img src="assets/img/instagram.svg" alt="Description of the image" width="30" height="30">
+                </a>
+                <a href="https://github.com/thaisdevfront" style="color: #ffd700;text-decoration:none;font-weight:600;">
+                    <img src="assets/img/github.svg" alt="Description of the image" width="30" height="30">
+                </a>
+                <a href="https://www.linkedin.com/in/thais-mariano-dev/" style="color:#02071B;text-decoration:none;">
+                    <img src="assets/img/linkedin.svg" alt="Description of the image" width="30" height="30">
+                </a>
+                </div>
+            </div>
+        </nav >
+    </div>
+
+</header>
+
+<header id="header" class="d-block d-md-none">
+  <nav class="navbar">
+    <div class="logo"> <strong>Th<span style="color: gold;">Mariano</span> -</strong> </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="menu" id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#port">Portfólio</a></li>
+      <li><a href="#conhecimento">Tecnologias</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+    </ul>
+  </nav>
+</header>
+
 
   <!-- INTRO -->
   <section class="hero" id="hero">
@@ -172,7 +223,7 @@
                     </p>
                 </div>
                 <div class="col-md-3">
-                    <button class="btn-port" data-project="LandingPage–UBKSistemas" type="button">
+                    <button class="btn-port scroll-item delay" data-project="LandingPage–UBKSistemas" type="button">
                         <img src="assets/img/icon-right.svg" alt="Description of the image" width="30" height="30">
                     </button>
                 </div>
@@ -195,7 +246,7 @@
                     </p>
                 </div>
                 <div class="col-md-3">
-                    <button class="btn-port" data-project="CatálogodeImóveis" type="button">
+                    <button class="btn-port scroll-item delay" data-project="CatálogodeImóveis" type="button">
                         <img src="assets/img/icon-right.svg" alt="Description of the image" width="30" height="30">
                     </button>
                 </div>
@@ -218,14 +269,14 @@
                     </p>
                 </div>
                 <div class="col-md-3">
-                    <button class="btn-port" data-project="OlfatiAromatizantes" type="button">
+                    <button class="btn-port scroll-item delay" data-project="OlfatiAromatizantes" type="button">
                         <img src="assets/img/icon-right.svg" alt="Description of the image" width="30" height="30">
                     </button>
                 </div>
                 </hr>
             </div>
         </div>
-        <div class="col-12 pb-5 text-center">
+        <div class="col-12 pb-5">
             <div class="maisport">
                 <div class="port-4 row align-items-center">
                         <div class="col-md-3">
@@ -244,19 +295,66 @@
                             </p>
                         </div>
                         <div class="col-md-3">
-                            <button class="btn-port" data-project="LandingPage–FlixSeguroResidencial" type="button">
+                            <button class="btn-port  scroll-item delay" data-project="LandingPage–FlixSeguroResidencial" type="button">
+                                <img src="assets/img/icon-right.svg" alt="Description of the image" width="30" height="30">
+                            </button>
+                        </div>
+                        </hr>
+                </div>
+                <div class="port-5 row align-items-center">
+                        <div class="col-md-3">
+                            <h1 class="scroll-item delay">
+                                <strong>0<span style="color: gold;">5</span> -</strong> 
+                            </h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class=" scroll-item delay">
+                                <strong>Loja Virtual</strong> 
+                            </h2>
+                        </div>
+                        <div class="col-md-3">
+                            <p class=" scroll-item delay">
+                                Loja Nike | Venda de Tênis Nike
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn-port  scroll-item delay" data-project="ProtótipodeLojaVirtual–VendadeTênisNike" type="button">
+                                <img src="assets/img/icon-right.svg" alt="Description of the image" width="30" height="30">
+                            </button>
+                        </div>
+                        </hr>
+                </div>
+                <div class="port-6 row align-items-center">
+                        <div class="col-md-3">
+                            <h1 class="scroll-item delay">
+                                <strong>0<span style="color: gold;">6</span> -</strong> 
+                            </h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class=" scroll-item delay">
+                                <strong>Site Institucional</strong> 
+                            </h2>
+                        </div>
+                        <div class="col-md-3">
+                            <p class=" scroll-item delay">
+                                Omega Governança Tributária
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn-port  scroll-item delay" data-project="SiteInstitucional–Omega" type="button">
                                 <img src="assets/img/icon-right.svg" alt="Description of the image" width="30" height="30">
                             </button>
                         </div>
                         </hr>
                 </div>
 
-
             </div>
-
-            <button class="btn-mais" type="button">
+            <div class="col-12 text-center">
+                <button class="btn-mais text-center" type="button">
                 Ver mais
             </button>
+            </div>
+            
         </div>
 
     </div>
@@ -421,11 +519,86 @@
 </div>
 </section>
  
- 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  
-  <script src="assets/js/script.js"></script>
-  <script src="assets/js/all.js"></script>
+<footer style="background-color: #01040F;">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 class="scroll-item delay">
+                    <strong>Th</br><span style="color: gold;">Mariano</span> -</strong> 
+                </h1>
+            </div>
+
+            <div class="col-md-4">
+                <h4 class=" scroll-item delay">
+                    <strong>Navegação</strong> 
+                </h4>
+                <div style="display:flex;">
+                    <ul>
+                        <li>
+                        <a href="index.html" style="color:#9ca3af;text-decoration:none;">Início</a>
+                        </li>
+                        <li>
+                            <a href="#port" style="color: #ffd700;text-decoration:none;font-weight:600;">Portfólio</a>
+                        </li>
+                        <li>
+                            <a href="#conhecimento" style="color:#9ca3af;text-decoration:none;">Tecnologias</a>
+                        </li>
+                        <li>
+                            <a href="#sobre" style="color:#9ca3af;text-decoration:none;">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 class=" scroll-item delay">
+                    <strong>Mais</strong> 
+                </h4>
+                <a href="https://www.instagram.com/thais.devfrontend" style="color:#02071B;text-decoration:none;">
+                <img src="assets/img/instagram.svg" alt="Description of the image" width="30" height="30">
+                </a>
+                <a href="https://github.com/thaisdevfront" style="color: #ffd700;text-decoration:none;font-weight:600;">
+                    <img src="assets/img/github.svg" alt="Description of the image" width="30" height="30">
+                </a>
+                <a href="https://www.linkedin.com/in/thais-mariano-dev/" style="color:#02071B;text-decoration:none;">
+                    <img src="assets/img/linkedin.svg" alt="Description of the image" width="30" height="30">
+                </a>
+                <div style="display:flex;" hidden>
+                    <ul>
+                        <li>
+                        <a href="index.html" style="color:#9ca3af;text-decoration:none;">Início</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html" style="color: #ffd700;text-decoration:none;font-weight:600;">Experiências</a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/5512981021517?text=Ol%C3%A1+quero+falar+com+a+Thais" style="color:#9ca3af;text-decoration:none;">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+        
+        </div>
+        <div class="row text-center pt-3">
+            <p>© 2026 Thais Mariano — UI/UX Designer & Front-End Developer</p>
+        </div>
+    </div>
+</footer>
+
+ <a href="#" class="whatsapp-float" onclick="abrirWhatsApp()">
+<!-- Ícone WhatsApp SVG -->
+<svg class="whatsapp-icon" viewBox="0 0 32 32" fill="white">
+<path d="M16 0C7.164 0 0 7.164 0 16c0 2.82.736 5.58 2.132 8.02L0 32l8.228-2.086A15.93 15.93 0 0016 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm0 29.09c-2.55 0-5.04-.668-7.24-1.94l-.52-.3-4.88 1.24 1.3-4.76-.34-.54A13.05 13.05 0 012.91 16C2.91 8.77 8.77 2.91 16 2.91S29.09 8.77 29.09 16 23.23 29.09 16 29.09z"/>
+<path d="M23.41 18.91c-.4-.2-2.36-1.16-2.73-1.29-.37-.13-.64-.2-.9.2-.26.4-1.03 1.29-1.26 1.55-.23.26-.46.3-.86.1-.4-.2-1.69-.62-3.22-1.98-1.19-1.06-2-2.37-2.23-2.77-.23-.4-.02-.62.18-.82.18-.18.4-.46.6-.7.2-.23.26-.4.4-.66.13-.26.07-.5-.03-.7-.1-.2-.9-2.18-1.23-2.98-.33-.8-.66-.7-.9-.7h-.77c-.26 0-.7.1-1.06.5-.37.4-1.4 1.36-1.4 3.31s1.43 3.84 1.63 4.11c.2.26 2.8 4.28 6.78 6 .95.41 1.7.66 2.28.84.96.3 1.83.26 2.52.16.77-.11 2.36-.97 2.69-1.9.33-.93.33-1.73.23-1.9-.1-.16-.36-.26-.76-.46z"/>
+</svg>
+<span class="whatsapp-text">Fale comigo</span>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<script src="assets/js/script.js"></script>
+<script src="assets/js/all.js"></script>
  
 </body>
 </html>
