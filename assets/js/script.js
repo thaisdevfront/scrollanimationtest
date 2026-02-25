@@ -36,7 +36,7 @@ const projects = [
     {
         id: "SiteInstitucional–Omega",
         title: "Site Institucional – Omega Governança Tributária",
-        image: "assets/imgs/projetos/omega.png",
+        image: "assets/img/projetos/omega.png",
         demo: "https://wheat-chough-976097.hostingersite.com/",
        
 
@@ -123,7 +123,7 @@ const projects = [
     {
         id: "ProtótipodeLojaVirtual–VendadeTênisNike",
         title: "Protótipo de Loja Virtual – Venda de Tênis Nike",
-        image: "assets/imgs/projetos/nike.png",
+        image: "assets/img/projetos/nike.png",
         demo: "https://thaisdevfront.github.io/Nike-th/",
         code: "https://github.com/thaisdevfront/Nike-th",
 
@@ -190,7 +190,7 @@ const projects = [
         tech: "Figma · UI/UX Design · Prototipação de Interfaces · Design Responsivo",
 
 
-        dev: "DDesenvolvi o protótipo de um site catálogo de imóveis para venda, voltado ao corretor Bruno Colleto, com foco na apresentação clara dos imóveis e na experiência do usuário.Atuei na criação do layout, organização das seções, definição de hierarquia visual e prototipação do fluxo de navegação, considerando boas práticas do mercado imobiliário.",
+        dev: "Desenvolvi o protótipo de um site catálogo de imóveis para venda, voltado ao corretor Bruno Colleto, com foco na apresentação clara dos imóveis e na experiência do usuário.Atuei na criação do layout, organização das seções, definição de hierarquia visual e prototipação do fluxo de navegação, considerando boas práticas do mercado imobiliário.",
 
 
         challenges: "Organizar múltiplos imóveis de forma clara e intuitiva, facilitando a navegação, visualização das informações e o contato com o corretor.",

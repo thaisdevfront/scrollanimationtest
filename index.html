@@ -51,13 +51,14 @@
   </section>
 
  <section id="mais">
-    <div class="mais container pt-5 pb-5" >
+    <div class="container pt-5 pb-5" >
         <div class="row d-flex align-items-center justify-content-center">
             <div class="col-md-6">
-                <img class="scroll-item delay" src="assets/img/perfil-mais.png" alt="" srcset="">
+                <img class="scroll-item delay d-none d-md-block" src="assets/img/perfil-mais.png" alt="" srcset="">
+                <img class="scroll-item delay img-fluid d-block d-md-none" src="assets/img/perfil-mais.png" alt="" srcset="">
             </div>
             <div class="col-md-6 ">
-               <h1 class="sobre  scroll-item delay">
+               <h1 class="scroll-item delay">
                     <strong>Minha <span style="color: gold;">experiência</span> 
                         é fruto de um <span style="color: gold;">ciclo contínuo</span> de 
                         experimentação e <span style="color: gold;">aprendizado prático</span>,
@@ -150,6 +151,155 @@
     </div>
 </section>
 
+<section class="port" id="port" style="background-color: #01040F; height: auto;">
+<div class="container pt-5 pb-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="port-1 row align-items-center">
+                <div class="col-md-3">
+                    <h1 class="scroll-item delay">
+                        <strong>0<span style="color: gold;">1</span> -</strong> 
+                    </h1>
+                </div>
+                <div class="col-md-3">
+                    <h2 class=" scroll-item delay">
+                        <strong>Landing Page</strong> 
+                    </h2>
+                </div>
+                <div class="col-md-3">
+                    <p class=" scroll-item delay">
+                        UBK Sistemas | Sistema de Gestão Completo
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn-port" data-project="LandingPage–UBKSistemas" type="button">
+                        <img src="assets/img/icon-right.svg" alt="Description of the image" width="30" height="30">
+                    </button>
+                </div>
+                </hr>
+            </div>
+            <div class="port-2 row align-items-center">
+                <div class="col-md-3">
+                    <h1 class="scroll-item delay">
+                        <strong>0<span style="color: gold;">2</span> -</strong> 
+                    </h1>
+                </div>
+                <div class="col-md-3">
+                    <h2 class=" scroll-item delay">
+                        <strong>Catálogo de Imóveis</strong> 
+                    </h2>
+                </div>
+                <div class="col-md-3">
+                    <p class=" scroll-item delay">
+                        Catálogo de Imóveis | Bruno Colleto
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn-port" data-project="CatálogodeImóveis" type="button">
+                        <img src="assets/img/icon-right.svg" alt="Description of the image" width="30" height="30">
+                    </button>
+                </div>
+                </hr>
+            </div>
+            <div class="port-3 row align-items-center">
+                <div class="col-md-3">
+                    <h1 class="scroll-item delay">
+                        <strong>0<span style="color: gold;">3</span> -</strong> 
+                    </h1>
+                </div>
+                <div class="col-md-3">
+                    <h2 class=" scroll-item delay">
+                        <strong>Loja Virtual</strong> 
+                    </h2>
+                </div>
+                <div class="col-md-3">
+                    <p class=" scroll-item delay">
+                        Loja Virtual – Olfati Aromatizantes
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn-port" data-project="OlfatiAromatizantes" type="button">
+                        <img src="assets/img/icon-right.svg" alt="Description of the image" width="30" height="30">
+                    </button>
+                </div>
+                </hr>
+            </div>
+        </div>
+        <div class="col-12 pb-5 text-center">
+            <div class="maisport">
+                <div class="port-4 row align-items-center">
+                        <div class="col-md-3">
+                            <h1 class="scroll-item delay">
+                                <strong>0<span style="color: gold;">4</span> -</strong> 
+                            </h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class=" scroll-item delay">
+                                <strong>Landing Page</strong> 
+                            </h2>
+                        </div>
+                        <div class="col-md-3">
+                            <p class=" scroll-item delay">
+                                Flix Seguro Residencial
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn-port" data-project="LandingPage–FlixSeguroResidencial" type="button">
+                                <img src="assets/img/icon-right.svg" alt="Description of the image" width="30" height="30">
+                            </button>
+                        </div>
+                        </hr>
+                </div>
+
+
+            </div>
+
+            <button class="btn-mais" type="button">
+                Ver mais
+            </button>
+        </div>
+
+    </div>
+</div>
+</section>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <button class="close" type="button">×</button>
+        
+        <h2 id="projectTitle"></h2>
+
+        <img id="projectImage" alt="Imagem do projeto" class="project-image">
+
+        <p><strong>📌 Projeto:</strong> <span id="projectName"></span></p>
+
+        <p><strong>Tecnologias utilizadas:</strong><br>
+        <span id="projectTech"></span>
+        </p>
+
+        <p><strong>O que eu desenvolvi:</strong><br>
+        <span id="projectDev"></span>
+        </p>
+
+        <p><strong>Desafios do projeto:</strong><br>
+        <span id="projectChallenges"></span>
+        </p>
+
+        <p><strong>Soluções aplicadas:</strong></p>
+        <ul id="projectSolutions"></ul>
+
+        <p><strong>Resultado:</strong><br>
+        <span id="projectResult"></span>
+        </p>
+
+        <div class="links">
+          <a id="demoLink" href="#" target="_blank" rel="noopener">🔗 Ver demo</a>
+          <a id="codeLink" href="#" target="_blank" rel="noopener">💻 Ver código</a>
+        </div>
+        
+    </div>
+</div>
 
   <section id="conhecimento">
     <div class="conhecimento container pt-5 pb-5" >

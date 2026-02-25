@@ -44,6 +44,103 @@ section {
   transition-delay: 0.3s;
 }
 
+/* MODAL */
+.project-image {
+  width: 100%;
+  max-width: 900px;
+  margin: 16px auto 24px;
+  display: block;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.modal-content {
+  background: #fff;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.close {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 26px;
+  cursor: pointer;
+}
+button.close {
+    border: 0px;
+    background: transparent;
+    /* padding: 50px; */
+}
+.modal h2 {
+  margin-bottom: 20px;
+}
+.modal p, ul {
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+ul {
+  padding-left: 20px;
+}
+.links {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+.links a {
+  background: #000;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 14px;
+} 
+
+/* botão vr mais */
+
+.maisport {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.maisport.aberto {
+  max-height: 1000px; /* valor alto para caber o conteúdo */
+}
+
+.btn-mais {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: #01040f;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: gold;
+    padding: 10px 30px;
+    border-radius: 100px;
+}
+
+.btn-mais:hover {
+    text-decoration: none;
+    border: solid 1px gold;
+    background-color: transparent;
+    color: gold;
+}
+
+
+
 
 section#hero {
     height: 100vh;
@@ -174,6 +271,26 @@ section#sobre .sobre-img img {
     position: relative;
 }
 
+    #port .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%;
+        display: flex;
+        justify-content: space-around;
+    }
+#port button.btn-port {
+    background-color: gold;
+    color: black;
+    padding: 15px 15px;
+    border: 0px;
+    border-radius: 100px;
+    /* font-size: x-large; */
+}
+.port-1.row.align-items-center {
+    padding: 30px 20px 30px;
+    border-bottom: solid 1px white;
+    margin: 0px auto;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 525px) {
     #hero{
@@ -271,11 +388,20 @@ section#sobre{
     align-items: center;
 }
 
-#mais img.scroll-item.delay.show {
-    width: stretch;
-    padding: 0px 0px 40px;
+#port h1.scroll-item.delay.show {
+    font-size: 7rem;
 }
-
+#port h2.scroll-item.delay.show {
+    font-size: 2.5rem;
+}
+#port .row.align-items-center {
+    padding: 30px 20px 30px;
+    border-bottom: solid 1px white;
+    margin: 0px auto;
+}
+ section#port {
+    height:auto ;
+}
 
 }
 
@@ -284,14 +410,34 @@ section#sobre{
     section#hero {
     overflow: hidden;
 }
-#mais img.scroll-item.delay.show {
-    width: stretch;
-    padding: 0px 0px 40px;
+section#sobre {
+    height: auto;
 }
+/* section#conhecimento {
+    height: auto;
+} */
+
+#mais img.scroll-item.show {
+    width: 100%;
+    padding: 0px 0px 30px;
+}
+#port h1.scroll-item.delay.show {
+    font-size: 7rem;
+}
+#port h2.scroll-item.delay.show {
+    font-size: 2.5rem;
+}
+#port .row.align-items-center {
+    padding: 30px 20px 30px;
+    border-bottom: solid 1px white;
+    margin: 0px auto;
+}
+
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
+
 @media (min-width: 768px) {
     span.elem-retet img {
     width: 150px;
@@ -344,13 +490,13 @@ span.elem-retet3 img {
     width: 50%;
     position: absolute;
 }
-section#sobre .sobre-img img {
-    bottom: 0px;
-    display: flex;
-    position: relative;
-    width: 375px;
-    left: 370px;
-}
+    section#sobre .sobre-img img {
+        bottom: 0px;
+        display: flex;
+        position: relative;
+        width: 375px;
+        left: 321px;
+    }
 
 
 
