@@ -1,7 +1,7 @@
  const items = document.querySelectorAll(".scroll-item");
 
 function handleScroll() {
-  const triggerBottom = window.innerHeight * 0.75;
+  const triggerBottom = window.innerHeight * 0.95;
   const triggerTop = window.innerHeight * 0.2;
 
   items.forEach(item => {
@@ -27,6 +27,41 @@ function handleScroll() {
 
 window.addEventListener("scroll", handleScroll);
 handleScroll();
+
+//whatsapp
+function abrirWhatsApp() {
+const telefone = "5512981021517"; // DDI + DDD + número
+const mensagem = "Olá! Gostaria de mais informações";
+
+
+const url = `https://wa.me/${telefone}?text=${encodeURIComponent(mensagem)}`;
+window.open(url, "_blank");
+}
+
+
+
+
+// naav
+const header = document.getElementById("header");
+const hamburger = document.getElementById("hamburger");
+const menu = document.getElementById("menu");
+
+// scroll header
+window.addEventListener("scroll", () => {
+  header.classList.toggle("scrolled", window.scrollY > 80);
+});
+
+// abrir / fechar menu
+hamburger.addEventListener("click", () => {
+  menu.classList.toggle("open");
+});
+
+// fechar menu ao clicar em um link
+menu.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    menu.classList.remove("open");
+  });
+});
 
 
 
@@ -211,7 +246,6 @@ const projects = [
     
 
 ];
-
 
 
 const gallery = document.getElementById("gallery");
