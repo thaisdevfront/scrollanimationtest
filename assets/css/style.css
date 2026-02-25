@@ -402,6 +402,12 @@ section#sobre{
  section#port {
     height:auto ;
 }
+    #port .col-md-3 {
+        flex: none;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
 
 }
 
